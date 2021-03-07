@@ -40,7 +40,6 @@
   --max-width: 1170px;
   --fixed-width: 620px;
 }
-
 *,
 ::after,
 ::before {
@@ -97,8 +96,6 @@ h2 {
     text-align: center;
     display: flex;
 }
-
-
 .circular--square {
   border-radius: 50%;
 }
