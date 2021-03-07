@@ -5,21 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
 
     <title>Employees</title>
 </head>
 <body>
-    <div class="container">
+    <section class="container">
         <div class="title">
             <h2>Employee's info</h2>
             <div class="underline"></div>
         </div>
+        
     <article class="employee">
-        <img class="circular--square"src="images/img3.jpg">
-    </article>
-    </div>
+        <div class="img-container">
+            <img class="circular--square"src="images/img3.jpg">
+        </div>
+        <h4 id="author">Bridge Jones</h4>
+        <p id="job">ux designer</p>
+          <p id="info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+            asperiores debitis incidunt, eius earum ipsam cupiditate libero?
+            Iste, doloremque nihil?
+          </p>
+          
+          <div class="buttons">
+            <span class="button-left" id="left-button">&#171;</span>
+            <span class="button-right" id="right-button">&#187;</span>
+          </div>
+          <button class="button-rand" id="rand-button">Suprize Me</button>
+        </article>
+</section>
 
     <script src="script.js"></script>
 </body>
