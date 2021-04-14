@@ -42,7 +42,6 @@ var employees = [
     },
 
 ];
-
 let current_item = 0;
 
 //loading the initial items
@@ -54,7 +53,6 @@ let current_item = 0;
 //     info.textContent = item.info;
 
 // });
-
 //show persons image 
 
 function showPerson(person) {
@@ -74,6 +72,7 @@ button_right.onclick = function() {
     }
     showPerson(current_item);
 };
+
 //backwards button click
 button_back.onclick = function() {
     console.log("Back pressed");
